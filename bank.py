@@ -45,7 +45,7 @@ class Bank(User):
 """Табличка с возможными коммандами"""
 commands_table = [["commands:", '-> About:'],
                     ['cm', '-> show commands'],
-                    ['profile', 'show profile'],
+                    ['profile', '->show profile'],
                     ['deposid', '-> put it on the balance'],
                     ['balance', '-> check balance'],
                     ['withdraw', '-> withdraw money xD']]
